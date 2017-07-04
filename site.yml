@@ -3,4 +3,6 @@
 - hosts: all
 
   roles:
+  -  { role: epel,
+       when: ansible_distribution == 'CentOS' or ansible_distribution == 'Red Hat Enterprise Linux' }
   - linux-common
