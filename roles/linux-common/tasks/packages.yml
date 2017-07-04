@@ -1,0 +1,4 @@
+---
+# Packages I always install
+
+- package: name=bash-completion state=present
